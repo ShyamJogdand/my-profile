@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Contact Us </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Sofia&display=swap" rel="stylesheet">
+
+    <style>
+        h2 {
+            font-family: 'Sofia', cursive;
+            color: cadetblue
+        }
+
+        lable {
+            font-family: 'Acme', sans-serif;
+            color: rgb(139, 71, 3);
+        }
+
+        input[type="text"] {
+            color: rgb(139, 71, 3);
+
+            border: 2px solid chocolate;
+        }
+
+        /* textarea {
+            border-radius: 15px;
+            color: rgb(139, 71, 3);
+        } */
+        textarea {
+            font-family: 'Ubuntu', sans-serif;
+            color: rgb(14, 15, 15);
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #171010;
+  border-radius: 15px;
+  background-color: #a2f493;
+  font-size: 16px;
+  resize: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2> Contact Us </h2>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <lable> Full Name: </lable>
+                </td>
+                <td><input type="text" placeholder="Max character length 20" maxlength="20" required> </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable> Mobile No: </lable>
+                </td>
+                <td><input type="tel" maxlength="10"> </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable> Email: </label>
+                </td>
+                <td> <input type="text" placeholder="Ex.abc@gmail.com"> </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable> Enquiry: </lable>
+                </td>
+                <td> <textarea name="" cols="50" rows="7"></textarea></td>
+            </tr>
+            <tr>
+                <td> <button type="submit" style="color: green;"> Submit </button> </td>
+                <td> <button type="reset" style="color: red;"> Clear </button> </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

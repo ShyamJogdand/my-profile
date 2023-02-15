@@ -4,7 +4,37 @@
         <title> Contact Us </title>
         <!-- CDN link -->
         <!-- <link rel="stylesheet" href="https://fontawesome.com/v4/icon/facebook-square"> -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Sofia&display=swap" rel="stylesheet">
+
+        <style>
+            h2{
+                font-family: 'Sofia', cursive;
+                color: cadetblue
+            }
+            lable{
+                font-family: 'Acme', sans-serif;
+                color: rgb(139, 71, 3);
+            }
+            input[type="text"]{
+                color: rgb(139, 71, 3);
+                /* width: 200px;
+                height: 20px; */
+                /* border-radius: 15px; */
+                border: 2px solid chocolate;
+            }
+            textarea{
+                border-radius: 15px;
+                color: rgb(139, 71, 3);
+            }
+            /* button{
+                color: green;
+            } */
+        </style>
+
     </head>
     <body>
         <h2> Contact Us </h2>
@@ -19,7 +49,7 @@
             <td><input type="tel" maxlength="10"> </td>
         </tr>
         <tr>
-            <td> <label> Email: </label></td>
+            <td> <lable> Email: </label></td>
             <td> <input type="text" placeholder="Ex.abc@gmail.com"> </td>
         </tr>
         <tr>
@@ -27,11 +57,11 @@
             <td> <textarea name="" cols="50" rows="7"></textarea></td>
         </tr>
         <tr>
-            <td> <button type="submit"> Submit </button> </td>
-            <td> <button type="reset"> Clear </button> </td>
+            <td> <button type="submit" style="color: green;"> Submit </button> </td>
+            <td> <button type="reset" style="color: red;"> Clear </button> </td>
         </tr>
     </table>
 </form>
-    <strong> Follow Me </strong> <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+    <!-- <strong> Follow Me </strong> <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i> -->
     </body>
 </html>
